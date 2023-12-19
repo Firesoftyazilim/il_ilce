@@ -2,7 +2,9 @@
 
 Bu kütüphane Türkiyenin il ve ilçelerini hızlıca şeçtirtmek için yapılmıştır.
 
-<img src="https://github.com/Firesoftyazilim/il_ilce/blob/main/il_ilce.gif" alt="il_ilce" width="300" height="500">
+![](https://github.com/Firesoftyazilim/il_ilce/blob/main/il_ilce.gif)
+
+
 
 
 ## Kurulum
@@ -16,7 +18,8 @@ flutter pub add il_ilce
 ## Kullanım
 
 ### Drop Down Widget
-<img src="https://github.com/Firesoftyazilim/il_ilce/blob/main/widget.png" alt="il_ilce" width="300" height="500">
+![](https://github.com/Firesoftyazilim/il_ilce/blob/main/widget.png)
+
 
 
 ```dart
@@ -27,7 +30,8 @@ IlIlceDropDown(
   ),
 ```
 ### Search Dialog
-<img src="https://github.com/Firesoftyazilim/il_ilce/blob/main/dialog.png" alt="il_ilce" width="300" height="500">
+![](https://github.com/Firesoftyazilim/il_ilce/blob/main/dialog.png)
+
 
 
 ```dart
