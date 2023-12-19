@@ -1,7 +1,10 @@
 name: il_ilce
 description: "İl ilçe seçici"
 version: 0.0.1
-homepage:
+homepage: https://github.com/Firesoftyazilim/il_ilce
+
+authors:
+  - Firesoft<firesoftyazilim@gmail.com>
 
 environment:
   sdk: '>=3.2.3 <4.0.0'
