@@ -85,8 +85,7 @@ class _IlIlceDropDownState extends State<IlIlceDropDown> {
                             Icons.arrow_drop_down,
                             color: textColor,
                           ),
-                          dropdownColor:
-                              Theme.of(context).colorScheme.primary,
+                          dropdownColor:backgroundColor,
                           items: cityList.map((e) {
                             return DropdownMenuItem<City>(
                               value: e,
@@ -135,8 +134,7 @@ class _IlIlceDropDownState extends State<IlIlceDropDown> {
                             Icons.arrow_drop_down,
                             color: textColor,
                           ),
-                          dropdownColor:
-                              Theme.of(context).colorScheme.primary,
+                          dropdownColor:backgroundColor,
                           items: city.districts.map((e) {
                             return DropdownMenuItem<String>(
                               value: e,
