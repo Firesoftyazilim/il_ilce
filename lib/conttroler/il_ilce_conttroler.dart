@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:il_ilce/model/selected_city.dart';
+import 'package:il_ilce/data/model/selected_city.dart';
 
 class IlIlceController {
   // Bu controller, bir string değeri içerir

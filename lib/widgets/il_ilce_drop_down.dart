@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:il_ilce/conttroler/il_ilce_conttroler.dart';
-import 'package:il_ilce/model/city.dart';
+import 'package:il_ilce/data/model/city.dart';
 
 import 'package:flutter/material.dart';
 
@@ -46,6 +46,10 @@ class _IlIlceDropDownState extends State<IlIlceDropDown> {
     cityList = City.list();
     city = cityList.first;
     district = city.districts.first;
+    if(widget.controller.selectedCity.city.isNotEmpty){
+      city = cityList.firstWhere((element) => element.city == widget.controller.selectedCity.city);
+      district = widget.controller.selectedCity.district;
+    }
   }
 
   @override

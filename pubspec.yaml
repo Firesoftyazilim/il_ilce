@@ -1,6 +1,6 @@
 name: il_ilce
 description: "İl ilçe seçici"
-version: 1.0.2
+version: 1.0.4
 homepage: https://github.com/Firesoftyazilim/il_ilce
 #flutter packages pub publish
 authors:

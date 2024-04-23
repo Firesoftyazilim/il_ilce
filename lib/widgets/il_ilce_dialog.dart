@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:il_ilce/model/city.dart';
+import 'package:il_ilce/data/model/city.dart';
 import 'package:select_dialog/select_dialog.dart';
 
 class IlIlceDialog{

@@ -1,0 +1,1 @@
+import '../model/city.dart';class CodeService{  CodeService._();  static CodeService? _instance;  static CodeService get instance =>      _instance ??= CodeService._();  String codeFromCity(String code) {    return City.code.where((element) => element['code'] == code).firstOrNull?['city'] ?? '';  }}
